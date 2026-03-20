@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/background"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="130dp"
+        android:layout_height="116dp"
+        android:layout_marginTop="4dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.016"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moon" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="257dp"
+        android:layout_height="66dp"
+        android:layout_marginTop="160dp"
+        android:src="@drawable/dailytarot"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.415"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="162dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView2"
+        app:srcCompat="@drawable/graphic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="운명을 엿볼 시간이에요."
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="165dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="112dp"
+        android:background="@drawable/btn"
+        android:text="시작하기"
+        app:backgroundTint="@null"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="411dp"
+        android:layout_height="233dp"
+        android:layout_marginTop="24dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button"
+        app:layout_constraintVertical_bias="1.0">
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="236dp"
+            android:layout_height="131dp"
+            android:layout_marginStart="192dp"
+            android:layout_marginTop="24dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="236dp"
+            android:layout_height="131dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="196dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="267dp"
+            android:layout_height="145dp"
+            android:layout_marginTop="108dp"
+            android:layout_marginEnd="168dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="267dp"
+            android:layout_height="145dp"
+            android:layout_marginStart="152dp"
+            android:layout_marginTop="108dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="40dp"
+        android:layout_height="33dp"
+        android:rotation="180"
+        app:layout_constraintBottom_toBottomOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="@+id/button"
+        app:layout_constraintHorizontal_bias="0.848"
+        app:layout_constraintStart_toStartOf="@+id/button"
+        app:layout_constraintTop_toTopOf="@+id/button"
+        app:layout_constraintVertical_bias="0.523"
+        app:srcCompat="@drawable/ic_back" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

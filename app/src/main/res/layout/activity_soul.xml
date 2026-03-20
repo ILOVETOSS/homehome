@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background">
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="191dp"
+        android:layout_height="59dp"
+        android:layout_marginTop="76dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/graphic" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="나의 생일로 알아보는 소울카드"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.562"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <ImageView
+        android:id="@+id/imageView21"
+        android:layout_width="51dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="40dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.011"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_back" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="47dp"
+        android:layout_height="27dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="4dp"
+        android:rotation="180"
+        app:layout_constraintEnd_toEndOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:srcCompat="@drawable/ic_back" />
+
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="223dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/genderbtn"
+        android:text="생년월일을 선택해주세요"
+        app:layout_constraintBottom_toTopOf="@+id/button5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="251dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/btn"
+        app:backgroundTint="@null"
+        android:text="달 10개로 소울카드 찾기"
+        app:layout_constraintBottom_toTopOf="@+id/textView33"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="239dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="44dp"
+        android:text="          소울카드에서 사용되는 정보는\n 카드 조합 용도 외에 사용되지 않습니다."
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView23"
+        android:layout_width="43dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="4dp"
+        app:layout_constraintStart_toStartOf="@+id/button5"
+        app:layout_constraintTop_toTopOf="@+id/button5"
+        app:srcCompat="@drawable/moon" />
+
+
+
+    <TextView
+        android:textColor="@color/white"
+        android:id="@+id/textView35"
+        android:layout_width="252dp"
+        android:layout_height="203dp"
+        android:layout_marginTop="64dp"
+        android:text="TextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.549"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

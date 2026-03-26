@@ -39,12 +39,20 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(Intent.ACTION_VIEW, Uri.parse(url))
             startActivity(intent)
         }
+
+        binding.imageView29.setOnClickListener {
+            val intent = Intent(this, loveActivity::class.java)
+            startActivity(intent)
+        }
+        binding.imageView30.setOnClickListener {
+            val intent = Intent(this, fruitActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     // [핵심] 충전 화면에서 뒤로가기로 돌아왔을 때 숫자를 새로고침합니다.
     override fun onResume() {
         super.onResume()
-
         // MoonActivity에서 썼던 "MoonData" 파일명과 똑같이 불러옵니다.
         val sharedPref = getSharedPreferences("MoonData", Context.MODE_PRIVATE)
         val currentCount = sharedPref.getInt("moon_count", 10)
@@ -53,4 +61,6 @@ class MainActivity : AppCompatActivity() {
         // 만약 ID가 다르다면 아래 이름을 수정하세요!
         binding.textView6.text = currentCount.toString()
     }
+
+
 }

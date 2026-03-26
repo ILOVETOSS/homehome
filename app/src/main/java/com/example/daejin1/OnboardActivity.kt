@@ -21,8 +21,6 @@ class OnboardActivity : AppCompatActivity() {
             view.startAnimation(fadeIn)
         }
 
-
-
         // 2. 요구사항에 맞춰 순차적으로 실행 (전체 2초 이내 시작)
         // 달과 구름 (가장 먼저)
         applyFadeIn(binding.imageView, 0)      // 달

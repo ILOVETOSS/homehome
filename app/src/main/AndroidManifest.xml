@@ -20,6 +20,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".FruitResultActivity"/>
+        <activity android:name=".fruitActivity"/>
+        <activity android:name=".loveActivity"/>
         <activity android:name=".MysoulActivity"/>
         <activity android:name=".MoonActivity"/>
         <activity android:name=".SoulActivity"/>
